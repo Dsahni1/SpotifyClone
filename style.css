@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Varela Round", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+nav ul li{
+    padding: 10px;
+}
+.brand img{
+    width: 50px;
+    padding-right: 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 75vh;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: blanchedalmond;
+    bottom: 0;
+    /* display: flex; */
+    justify-content: center;
+    text-align: center;
+    /* flex-direction: column; */
+}
+
+#myProgressBar{
+    width: 80vw;
+}
