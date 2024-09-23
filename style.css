@@ -38,7 +38,22 @@ nav ul li{
 
 .container{
     min-height: 75vh;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    width: 75%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 10px;
+    background-image: url('images/bg.jpg');
 }
+
+#myProgressBar{
+    width: 80vw;
+    margin-top: 10px;
+}
+
 .bottom{
     position: sticky;
     height: 100px;
@@ -53,4 +68,48 @@ nav ul li{
 
 #myProgressBar{
     width: 80vw;
+    margin-top: 10px;
+    color: white;
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+.icons{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 80px;
+}
+.songItem{
+    display: flex;
+    margin: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+.songItem img{
+    width: 10%;
+    padding: 0px 10px;
+    border-radius: 40px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw; 
+    top: 35%;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
 }
