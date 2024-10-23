@@ -27,8 +27,11 @@ To run this project, you will need:
    git clone https://github.com/yourusername/spotify-webapp.git
 
 2. Navigate to the project directory:
+    ```bash
     cd spotify-webapp
+
 3. Open index.html in your browser:
+    ```bash
     open index.html
 AWS Setup
 Songs and covers are hosted on AWS S3.
